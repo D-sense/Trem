@@ -1,0 +1,26 @@
+{
+    "MessageSDKFramework": {
+        "name": "MessageSDKFramework",
+        "type": "podspec",
+        "spec": "~>7.0.20",
+        "count": 1
+    },
+    "cometchat-ui": {
+        "name": "cometchat-ui",
+        "type": "podspec",
+        "spec": "~>7.0.20",
+        "count": 1
+    },
+    "Firebase/Auth": {
+        "name": "Firebase/Auth",
+        "type": "podspec",
+        "spec": "~>4.0.1",
+        "count": 1
+    },
+    "Firebase/Database": {
+        "name": "Firebase/Database",
+        "type": "podspec",
+        "spec": "~>4.0.1",
+        "count": 1
+    }
+}

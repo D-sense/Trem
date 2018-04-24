@@ -1,0 +1,66 @@
+/*
+   statusbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
+
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
+*/
+
+.statusbar-overlay {
+    background: #000000;
+}
+
+.navbar .navbar-inner img{
+    width: 100px;
+}
+
+.panel {
+    background-color: white;
+}
+
+.panel .profile_name_img{
+    border-bottom: 1px whitesmoke solid;
+    margin-bottom: 30px;
+}
+.panel .profile_image{
+    width: 35px;
+    height: 20;
+    border-radius: 50%;
+}
+
+.panel .profile_nameText{
+    font-weight: bold;
+    margin-left: 10px;
+    color: grey;
+}
+
+
+.page-content .block p.row a.talk_to_doctor_icon {
+    height: 60;
+    border:1px red solid;
+    padding: 30px 50px;
+    border-radius: 3px;
+    font-size: 150%;
+    text-align: left;
+}
+
+.page-content a img{
+    width: 35px;
+    height: 10;
+}
+
+
+/** For Health Tips page **/
+.demo-card-header-pic .card-header {
+    height: 40vw;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  .demo-card-header-pic .card-content-padding .date{
+    color: #8e8e93;
+  }

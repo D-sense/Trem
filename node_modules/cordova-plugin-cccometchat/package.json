@@ -1,0 +1,59 @@
+{
+  "_from": "cordova-plugin-cccometchat",
+  "_id": "cordova-plugin-cccometchat@7.0.1-2.4",
+  "_inBundle": false,
+  "_integrity": "sha1-4/xg4N7VeDRR4Xfkxwv1/EFA2Lc=",
+  "_location": "/cordova-plugin-cccometchat",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-cccometchat",
+    "name": "cordova-plugin-cccometchat",
+    "escapedName": "cordova-plugin-cccometchat",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-cccometchat/-/cordova-plugin-cccometchat-7.0.1-2.4.tgz",
+  "_shasum": "e3fc60e0ded5783451e177e4c70bf5fc4140d8b7",
+  "_spec": "cordova-plugin-cccometchat",
+  "_where": "/Users/Oluwashola/MyPhoneGapApps/tremenDoc",
+  "author": {
+    "name": "Inscripts"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-cccometchat",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "The CometChat plugin to integrate chat in your app",
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=7.0.0"
+    },
+    {
+      "name": "cordova-ios",
+      "version": ">=3.3.*"
+    }
+  ],
+  "keywords": [
+    "cordova",
+    "CCCometChat",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "2.0",
+  "name": "cordova-plugin-cccometchat",
+  "version": "7.0.1-2.4"
+}

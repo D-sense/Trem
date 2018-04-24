@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>TremenDoc App</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="../../css/patient/patient_profile.css" />
+</head>
+
+<body>
+    <div data-role="page" class="jqm-demos" id="panel-fixed-page1" data-title="Panel fixed positioning" data-url="panel-fixed-page1">
+        
+        <div data-role="header" data-position="fixed"  class="navBar">
+            <a href="#nav-panel" data-icon="" data-iconpos="notext"><i class="icon icon-bars"></i></a>
+            <h1>Patient Home Screen</h1>
+        </div><!-- /header -->
+        
+        <!-- panel -->
+        <div data-role="panel" data-position="left" data-position-fixed="true" data-display="overlay" data-theme="a" id="nav-panel">
+                <ul data-role="listview" data-icon="false" class="ui-grid-a">
+                    <li data-role="list-divider">
+                        <div class="ui-grid-a profileImage">
+                            <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:80px"><img src="../../img/tremendocLogo.png">
+                        </div></div>
+                        <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:80px"><h2>Oluwashola</h2>
+                                <p>View profile</p>
+                        </div><!-- /grid-a -->
+                    </li>
+
+                    <li><a href="find_doctor.html">Find a Doctor</a></li>
+                    <li><a href="doctor_notes.html">Doctors Notes</a></li>
+                    <li><a href="health_tips.html">Health Tips</a></li>
+                    <li><a href="health_insurance.html">health Insurance</a></li>
+                    <li><a href="payment_subscription.html">Payment & Subscription</a></li>
+                    <li><a href="../about.html">About</a></li>
+                </ul>  
+        </div><!-- /panel -->
+
+        <div class="homeButtonSection">
+             <a class="">Talk to a Doctor Now</a>
+             <a class="">Choose a Plan</a>   
+             <a class="">Recent Consultation</a>
+             <a class="">Favourite</a>   
+             <a class="">Presciption</a>      
+        </div>        
+
+     </div><!-- /page -->
+
+</body>
+
+</html>
