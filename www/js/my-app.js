@@ -74,12 +74,12 @@ function Init()
       if(device.platform=="Android")
       {
         CCCometChat.getInstance(function success(data){ alert("success "+data); },function error(data){ alert(" fail "+data); });
-        CCCometChat.initializeCometChat("http://165.227.82.133/","COMETCHAT-0M9OL-U0GDY-7DL1Q-KEDNT","50308x1327710d428423c98185a8d442649700","YES",function success(data){ Login(); },function error(data){ alert(" fail "+data); });
+        CCCometChat.initializeCometChat("","","","YES",function success(data){ Login(); },function error(data){ alert(" fail "+data); });
         //CCCometChat.initializeCometChat("SITE-URL","LICENSE-KEY","API-KEY","isCOMETONDEMAND",function success(data){ Login(); },function error(data){ alert(" fail "+data); });
       }
       else if(device.platform=="iOS")
       {
-        CCCometChat.initializeCometChat("http://165.227.82.133/","COMETCHAT-0M9OL-U0GDY-7DL1Q-KEDNT","50308x1327710d428423c98185a8d442649700","YES",function success(){ Login() },function error(data){ alert(" fail "+data); });
+        CCCometChat.initializeCometChat("","","","YES",function success(){ Login() },function error(data){ alert(" fail "+data); });
         //CCCometChat.initializeCometChat("SITE-URL","LICENSE-KEY","API-KEY","isCOMETONDEMAND",function success(data){ alert(" success "+data); },function error(data){ alert(" fail "+data); });
       }
 
